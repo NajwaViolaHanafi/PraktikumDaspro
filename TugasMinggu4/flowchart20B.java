@@ -13,6 +13,11 @@ public class flowchart20B {
 
         totalBiayaListrik = tarifListrik * dayaListrik;
         biayaPelanggan = totalBiayaListrik + biayaTetap;
+
+        //kalau biaya pelanggan lebih dari 2000000 pajak nya sekarang 15%
+        if (biayaPelanggan > 2000000);
+            ppn = 0.15;
+        
         totalBiaya = biayaPelanggan + (biayaPelanggan * ppn);
 
         System.out.println("total biaya : Rp" + totalBiaya);
