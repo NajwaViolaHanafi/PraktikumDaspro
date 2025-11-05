@@ -14,7 +14,7 @@ public class Triangle20 {
                 System.out.print("*");
                 j++;
             }
-
+            System.out.println();
             i++;
         }
     }
