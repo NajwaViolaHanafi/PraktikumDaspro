@@ -7,7 +7,7 @@ public class Tugas02 {
         int n = sc.nextInt();
 
     if (n < 3) {
-        System.out.println("Nilai n minimal 3!");
+        System.out.println("Nilai n minimal 3");
         return;
 }
     for (int i = 0; i < n; i++) {
@@ -20,7 +20,7 @@ public class Tugas02 {
 }
 }
         System.out.println();
-        
+
         }
     }
 }
